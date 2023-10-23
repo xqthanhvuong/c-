@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+input::-webkit-input-placeholder{
+    font-family: 'Delicious Handrawn', cursive;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.container {
+    margin: 30px auto;
+
+    padding: 30px;
+    width: 700px !important;
+    border: solid 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+}
+.container *{
+    margin: 5px 5px 0 0;
+}
+input,select,textarea{
+    border-bottom:rgba(0,0,0,0.17) solid 1px;
+}
+.money {
+    display: flex;
+}
+.inp {
+    display: flex;
+    width: 100%;
+    flex-direction:column ;
+}
+.transportation > div {
+    display: flex;
+    justify-content: space-around;
+}
+#submit {
+    background: #0EA5E9;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 35px;
+    margin-top: 10px;
+    margin-left: 0;
+    transition: 0.05s ease-in-out;
+}
+.post #submit:hover {
+    transform: scale(0.95);
+}
